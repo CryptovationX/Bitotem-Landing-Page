@@ -1,0 +1,171 @@
+/* lg */
+@media (min-width: 1440px) {
+	html, body{
+		width: 100%
+	}
+
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+	html, body{
+		width: 100%
+	}
+	
+
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+	html, body{
+		width: 100%
+	}
+	.register-section {
+		padding: 85px 35px 60px;
+	}
+	.main-slider .slider-content{
+		font-size:18px;
+	}
+	.main-slider .slider-content h1 {
+		font-size:40px;
+	}
+	.instructor-info {
+		padding: 0px 5px;
+	}
+	.social-icons ul {
+		margin-top: 12px;
+	}
+	.instructor-info h2 {
+		font-size:20px;
+	}
+	.instructor-info .social-icons {
+		margin-bottom: 12px;
+	}
+	.social-icons ul li i {
+		height: 22px;
+		width: 22px;
+		font-size: 14px;
+		line-height: 22px;
+	}
+
+	#gmap{
+		height:400px;
+	}
+
+}
+
+
+/* xs */
+@media (max-width: 767px) {
+	html, body{
+		width: 100%
+	}
+	h1 {
+		font-size:28px;
+	}
+	h2{
+		font-size:20px;
+	}
+	h3{
+		font-size:16px;
+	}
+	.padding {
+		padding: 50px 0px;
+	}
+	.section-title {
+		margin-bottom:30px;
+		font-size:14px;
+	}
+	.section-title h1{
+		font-size:25px;
+	}
+	.navbar-header .navbar-brand {
+		padding-left:15px;
+	}
+	.main-slider .slider-content {
+		margin-top: 180px;
+		font-size:16px;
+		margin-bottom:50px;
+	}
+	.main-slider .slider-content h1 {
+		font-size:35px;
+	}
+	.register-section {
+		padding: 60px 25px 30px;
+	}
+	.btn-primary{
+		font-size:14px;
+	}
+	.feature {
+		margin-bottom:50px;
+	}
+
+	#course-description{
+		font-size:16px;
+	}
+	#course-description h1 {
+		font-size: 30px;
+		margin-bottom: 25px;
+	}
+	.curriculum-tab .tab-list {
+		margin-bottom: 45px;
+	}
+	.curriculum-tab .tab-list li a {
+		font-size: 15px;
+		display: block;
+		margin-bottom: 5px;
+	}
+	#video-section .video-content {
+		padding: 120px 0px;
+	}
+	#video-section img{
+		width:35%;
+	}
+	.instructor{
+		margin-bottom:15px;
+	}
+	#requirements .btn-primary {
+		font-size: 16px;
+		padding: 12px 30px;
+		margin-bottom: 40px;
+	}
+	#gmap{
+		height:350px;
+	}
+	.contact-info{
+		margin-bottom:50px;
+		color: #000;
+	}
+	.contact-info:last-child{
+		margin-bottom:10px;
+	}
+	#contact-us .contact-form {
+		padding-top: 60px;
+		padding-bottom: 45px;
+	}
+	#footer-bottom {
+		padding: 30px 0px 20px;
+	}
+
+	.instructor-image img {
+		width: 50%;
+	}
+
+}
+
+/* XS Portrait */
+@media (max-width: 479px) {
+	html, body{
+		width: 100%
+	}
+
+	.table-responsive{
+		width:100%;
+	}
+
+	.instructor-image img {
+		width: 50%;
+	}
+
+
+}
